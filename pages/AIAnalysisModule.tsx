@@ -52,8 +52,8 @@ export const AIAnalysisModule: React.FC = () => {
     try {
       const result = await FilmAnalysisService.analyzeVideo(videoFile);
       setAnalysisResult(result);
-    } catch (err) {
-      setError('分析失败，请重试');
+    } catch (err: any) {
+      setError(err.message || '分析失败，请重试');
       console.error(err);
     } finally {
       setIsAnalyzing(false);

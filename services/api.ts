@@ -62,65 +62,59 @@ export interface ShotAnalysis {
 
 export const FilmAnalysisService = {
   /**
-   * 真实的视频拉片分析接口：上传视频 -> 轮询状态 -> 获取结果
+   * 模拟视频拉片分析接口
    */
   async analyzeVideo(file: File): Promise<ShotAnalysis[]> {
-    console.log('正在上传视频并请求后端接口: /api/upload...', { fileName: file.name });
-    
-    // 1. 上传视频文件
-    const formData = new FormData();
-    formData.append('file', file);
-    
-    const uploadRes = await fetch('/api/upload', {
-      method: 'POST',
-      body: formData,
-    });
-    
-    if (!uploadRes.ok) {
-        throw new Error(`上传失败: ${uploadRes.statusText}`);
-    }
-    
-    const uploadData = await uploadRes.json();
-    if (uploadData.code !== 200) {
-        throw new Error(`上传处理失败: ${uploadData.msg}`);
-    }
-    
-    const taskId = uploadData.data.task_id;
-    console.log(`上传成功，任务ID: ${taskId}，开始轮询进度...`);
-    
-    // 2. 轮询状态直到 completed 或 failed
-    while (true) {
-        await delay(2000); // 每2秒轮询一次
-        
-        const statusRes = await fetch(`/api/status/${taskId}`);
-        if (!statusRes.ok) continue;
-        
-        const statusData = await statusRes.json();
-        const status = statusData.data.status;
-        
-        console.log(`任务 ${taskId} 当前状态: ${status}`);
-        
-        if (status === 'failed') {
-            throw new Error(`后台处理失败: ${statusData.data.error || '未知错误'}`);
-        }
-        
-        if (status === 'completed') {
-            break;
-        }
-    }
-    
-    // 3. 任务完成后，获取组装好的结果
-    console.log(`任务 ${taskId} 完成，正在获取最终拉片结果...`);
-    const resultRes = await fetch(`/api/result/${taskId}`);
-    if (!resultRes.ok) {
-        throw new Error(`获取结果失败: ${resultRes.statusText}`);
-    }
-    
-    const resultData = await resultRes.json();
-    if (resultData.code !== 200) {
-        throw new Error(`处理结果返回错误: ${resultData.msg}`);
-    }
-    
-    return resultData.data as ShotAnalysis[];
+    console.log('正在请求后端接口: /api/analysis/video...', { fileName: file.name });
+    await delay(3000); // 模拟深度学习分析耗时
+
+    // 返回模拟的拉片数据
+    return [
+      {
+        id: 1,
+        timecode: '00:00:00 - 00:00:05',
+        shotType: '全景 (Wide Shot)',
+        movement: '固定 (Static)',
+        description: '厦门大学嘉庚建筑群全景，阳光明媚，海风轻拂。',
+        audio: '海浪声，轻柔的背景音乐。',
+        thumbnail: 'https://picsum.photos/seed/shot1/200/112'
+      },
+      {
+        id: 2,
+        timecode: '00:00:05 - 00:00:12',
+        shotType: '中景 (Medium Shot)',
+        movement: '推 (Dolly In)',
+        description: '学生在图书馆前走动，充满活力。',
+        audio: '环境人声，脚步声。',
+        thumbnail: 'https://picsum.photos/seed/shot2/200/112'
+      },
+      {
+        id: 3,
+        timecode: '00:00:12 - 00:00:18',
+        shotType: '特写 (Close-up)',
+        movement: '移 (Pan)',
+        description: '一本翻开的书籍，文字清晰可见。',
+        audio: '翻书声。',
+        thumbnail: 'https://picsum.photos/seed/shot3/200/112'
+      },
+      {
+        id: 4,
+        timecode: '00:00:18 - 00:00:25',
+        shotType: '远景 (Extreme Wide)',
+        movement: '航拍 (Drone)',
+        description: '演武大桥与双子塔，展现城市地标。',
+        audio: '城市远处的喧嚣。',
+        thumbnail: 'https://picsum.photos/seed/shot4/200/112'
+      },
+      {
+        id: 5,
+        timecode: '00:00:25 - 00:00:30',
+        shotType: '近景 (Close Shot)',
+        movement: '拉 (Dolly Out)',
+        description: '一位教授在讲台上授课，神情专注。',
+        audio: '教授的讲课声。',
+        thumbnail: 'https://picsum.photos/seed/shot5/200/112'
+      }
+    ];
   }
 };

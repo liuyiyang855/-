@@ -1,0 +1,758 @@
+[
+  {
+    "scene_index": 1,
+    "timestamp": [
+      0.0,
+      14.6
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室外",
+    "brightness": 0.686,
+    "tension": 1.0,
+    "motion_type": "拉",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室外；明暗：0.686；张力：1.0；运动：拉",
+    "prompt": "A medium shot of subject in outdoor, bright, cinematic.",
+    "frames": {
+      "start_time": 0.0,
+      "burst_time": 5.84,
+      "end_time": 14.6
+    }
+  },
+  {
+    "scene_index": 2,
+    "timestamp": [
+      14.6,
+      22.4
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.377,
+    "tension": 1.0,
+    "motion_type": "拉",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.377；张力：1.0；运动：拉",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 14.6,
+      "burst_time": 22.4,
+      "end_time": 22.4
+    }
+  },
+  {
+    "scene_index": 3,
+    "timestamp": [
+      22.4,
+      27.3
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.25,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.25；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 22.4,
+      "burst_time": 27.3,
+      "end_time": 27.3
+    }
+  },
+  {
+    "scene_index": 4,
+    "timestamp": [
+      27.3,
+      30.6
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.257,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.257；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 27.3,
+      "burst_time": 30.6,
+      "end_time": 30.6
+    }
+  },
+  {
+    "scene_index": 5,
+    "timestamp": [
+      30.6,
+      36.3
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.26,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.26；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 30.6,
+      "burst_time": 32.88,
+      "end_time": 36.3
+    }
+  },
+  {
+    "scene_index": 6,
+    "timestamp": [
+      36.3,
+      39.9
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.282,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.282；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 36.3,
+      "burst_time": 39.9,
+      "end_time": 39.9
+    }
+  },
+  {
+    "scene_index": 7,
+    "timestamp": [
+      39.9,
+      46.0
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.279,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.279；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 39.9,
+      "burst_time": 42.34,
+      "end_time": 46.0
+    }
+  },
+  {
+    "scene_index": 8,
+    "timestamp": [
+      46.0,
+      49.8
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.271,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.271；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 46.0,
+      "burst_time": 46.76,
+      "end_time": 49.8
+    }
+  },
+  {
+    "scene_index": 9,
+    "timestamp": [
+      49.8,
+      52.7
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.256,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.256；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 49.8,
+      "burst_time": 50.38,
+      "end_time": 52.7
+    }
+  },
+  {
+    "scene_index": 10,
+    "timestamp": [
+      52.7,
+      63.3
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.271,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.271；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 52.7,
+      "burst_time": 54.82,
+      "end_time": 63.3
+    }
+  },
+  {
+    "scene_index": 11,
+    "timestamp": [
+      63.3,
+      66.0
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.305,
+    "tension": 1.0,
+    "motion_type": "移",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.305；张力：1.0；运动：移",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 63.3,
+      "burst_time": 66.0,
+      "end_time": 66.0
+    }
+  },
+  {
+    "scene_index": 12,
+    "timestamp": [
+      66.0,
+      67.5
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.261,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.261；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 66.0,
+      "burst_time": 66.9,
+      "end_time": 67.5
+    }
+  },
+  {
+    "scene_index": 13,
+    "timestamp": [
+      67.5,
+      73.9
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.224,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.224；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 67.5,
+      "burst_time": 72.62,
+      "end_time": 73.9
+    }
+  },
+  {
+    "scene_index": 14,
+    "timestamp": [
+      73.9,
+      77.3
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.23,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.23；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 73.9,
+      "burst_time": 75.94,
+      "end_time": 77.3
+    }
+  },
+  {
+    "scene_index": 15,
+    "timestamp": [
+      77.3,
+      78.5
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.227,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.227；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 77.3,
+      "burst_time": 77.54,
+      "end_time": 78.5
+    }
+  },
+  {
+    "scene_index": 16,
+    "timestamp": [
+      78.5,
+      85.1
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.251,
+    "tension": 1.0,
+    "motion_type": "摇",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.251；张力：1.0；运动：摇",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 78.5,
+      "burst_time": 81.14,
+      "end_time": 85.1
+    }
+  },
+  {
+    "scene_index": 17,
+    "timestamp": [
+      85.1,
+      127.4
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.266,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.266；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 85.1,
+      "burst_time": 102.02,
+      "end_time": 127.4
+    }
+  },
+  {
+    "scene_index": 18,
+    "timestamp": [
+      127.4,
+      135.5
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.241,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.241；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 127.4,
+      "burst_time": 129.02,
+      "end_time": 135.5
+    }
+  },
+  {
+    "scene_index": 19,
+    "timestamp": [
+      135.5,
+      138.6
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.223,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.223；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 135.5,
+      "burst_time": 136.12,
+      "end_time": 138.6
+    }
+  },
+  {
+    "scene_index": 20,
+    "timestamp": [
+      138.6,
+      142.6
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.404,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.404；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, neutral lighting, cinematic.",
+    "frames": {
+      "start_time": 138.6,
+      "burst_time": 139.4,
+      "end_time": 142.6
+    }
+  },
+  {
+    "scene_index": 21,
+    "timestamp": [
+      142.6,
+      146.0
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室外",
+    "brightness": 0.654,
+    "tension": 1.0,
+    "motion_type": "拉",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室外；明暗：0.654；张力：1.0；运动：拉",
+    "prompt": "A medium shot of subject in outdoor, bright, cinematic.",
+    "frames": {
+      "start_time": 142.6,
+      "burst_time": 143.28,
+      "end_time": 146.0
+    }
+  },
+  {
+    "scene_index": 22,
+    "timestamp": [
+      146.0,
+      148.6
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室外",
+    "brightness": 0.554,
+    "tension": 1.0,
+    "motion_type": "拉",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室外；明暗：0.554；张力：1.0；运动：拉",
+    "prompt": "A medium shot of subject in outdoor, neutral lighting, cinematic.",
+    "frames": {
+      "start_time": 146.0,
+      "burst_time": 148.6,
+      "end_time": 148.6
+    }
+  },
+  {
+    "scene_index": 23,
+    "timestamp": [
+      148.6,
+      152.1
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.454,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.454；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, neutral lighting, cinematic.",
+    "frames": {
+      "start_time": 148.6,
+      "burst_time": 150.0,
+      "end_time": 152.1
+    }
+  },
+  {
+    "scene_index": 24,
+    "timestamp": [
+      152.1,
+      154.8
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.482,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.482；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, neutral lighting, cinematic.",
+    "frames": {
+      "start_time": 152.1,
+      "burst_time": 152.64,
+      "end_time": 154.8
+    }
+  },
+  {
+    "scene_index": 25,
+    "timestamp": [
+      154.8,
+      156.5
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.443,
+    "tension": 1.0,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.443；张力：1.0；运动：跟",
+    "prompt": "A medium shot of subject in indoor, neutral lighting, cinematic.",
+    "frames": {
+      "start_time": 154.8,
+      "burst_time": 156.5,
+      "end_time": 156.5
+    }
+  },
+  {
+    "scene_index": 26,
+    "timestamp": [
+      156.5,
+      158.3
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.407,
+    "tension": 0.887,
+    "motion_type": "跟",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.407；张力：0.887；运动：跟",
+    "prompt": "A medium shot of subject in indoor, neutral lighting, cinematic.",
+    "frames": {
+      "start_time": 156.5,
+      "burst_time": 157.22,
+      "end_time": 158.3
+    }
+  },
+  {
+    "scene_index": 27,
+    "timestamp": [
+      158.3,
+      161.3
+    ],
+    "shot_type": "中景",
+    "count": "多人",
+    "subject": [
+      "人物"
+    ],
+    "action": [],
+    "keywords": [
+      "人物"
+    ],
+    "people_density": 0.9,
+    "environment": "室内",
+    "brightness": 0.255,
+    "tension": 1.0,
+    "motion_type": "推",
+    "summary": "景别：中景；主体：人物；数量：多人；环境：室内；明暗：0.255；张力：1.0；运动：推",
+    "prompt": "A medium shot of subject in indoor, dark, cinematic.",
+    "frames": {
+      "start_time": 158.3,
+      "burst_time": 158.9,
+      "end_time": 161.3
+    }
+  }
+]
